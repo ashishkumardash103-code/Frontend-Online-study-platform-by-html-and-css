@@ -1,0 +1,88 @@
+pre{
+    text-align: center;
+    background-color: aqua;
+}
+
+
+img{
+    position:relative;
+    left :0%;
+    right :50%;
+    top :50%;
+    bottom :50%;
+}
+
+h1{
+    text-align: center;
+}
+
+#one{
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin: 0;
+}
+
+/* Box styling */
+.form-box {
+  background-color: #fff;
+  padding: 25px 200px;
+  border-radius: 19px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width:500px;
+  font-size: 20px;
+}
+
+/* Heading */
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ded5d5;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button */
+.submit-btn {
+  width: 70px;
+  height: 40px;
+  padding: 8px;
+  margin-top: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 3s;
+}
+
+.submit-btn:hover{
+  background-color: #515558;
+}
+
+.submit-btn a{
+  color: white;
+}

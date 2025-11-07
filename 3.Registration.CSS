@@ -1,0 +1,167 @@
+body{
+    background-color: aqua;
+}
+
+#two {
+  margin: 0;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+  font-family: Arial, sans-serif;
+}
+
+.Registration {
+  background-color: white;
+  padding: 25px 100px;
+  border-radius: 19px;
+  box-shadow: 0 4px 15px rgba(20, 20, 20, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+#box{
+    color: #333;
+    background-color: aqua;
+    margin: 0;
+    height: 21px;
+    border-radius: 5px;
+    font-size: 19px;
+
+}
+
+.lable{
+     text-align: left;
+  margin-bottom: 20px;
+}
+
+h3{
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #8b4f4f;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/*input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}*/
+
+input::placeholder {
+    color: #999;
+    font-style: italic;
+    
+}
+
+select{
+    width: 250px;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+button{
+  padding: 1px;
+  border: 3px;
+  border-radius: 5px;
+  background-color: rgb(38, 0, 255);
+  font-size: 16px;
+  cursor: pointer;
+  color: aliceblue;
+  display:flex;
+}
+
+.feedback{
+     border-radius: 5px;
+     
+    
+}
+
+h2{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(238, 112, 238);
+}
+
+#one {
+  margin: 0;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+  font-family: arial, sans-serif;
+}
+
+.payment-box {
+  background-color: white;
+  padding: 25px 100px;
+  border-radius: 19px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.payment-box h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.total {
+  font-size: 24px;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 15px 0;
+}
+
+.payment-options {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.payment-options label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin: 6px 0;
+}
+
+.pay-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  background-color: #0056b3;
+
+}
+
+ 
